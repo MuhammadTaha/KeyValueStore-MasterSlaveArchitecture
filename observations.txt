@@ -1,0 +1,4 @@
+2018-12-04 19:47:50,511 INFO  - Client Start Writing Message0
+2018-12-04 19:47:51,548 INFO  - Client Committed Message0
+2018-12-04 19:47:52,549 INFO  - Client Start Writing Message-1
+2018-12-04 19:47:53,560 INFO  - Client Committed Message-1

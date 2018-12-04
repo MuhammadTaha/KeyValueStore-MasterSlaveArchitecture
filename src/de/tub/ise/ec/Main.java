@@ -35,36 +35,57 @@ public class Main {
 		{
 			case 0: //Client
 				try {
-					SetupClient(host,port,100);
+					SetupClient(host,port,1);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
 				break;
 
 			case 1: //Writing server
+                SetupMasterServer(host,port);
 				break;
 
 			case 2: //Read Server
+                SetupSlaveServer(host,port);
 				break;
 		}
 
-
-/*
-		// Server: register handler
-		RequestHandlerRegistry reg = RequestHandlerRegistry.getInstance();
-		reg.registerHandler("sampleMessageHandler", new SampleMessageHandler());
-
-		// Server: start receiver
-		try {
-			Receiver receiver = new Receiver(port);
-			receiver.start();
-		} catch (IOException e) {
-			System.out.println("Connection error: " + e);
-		}
-
-*/
-
 	}
+
+    public static void SetupMasterServer(String host, int port) /*throws InterruptedException */{
+
+        // Server: register handler
+        RequestHandlerRegistry reg = RequestHandlerRegistry.getInstance();
+        reg.registerHandler("MasterMessageHandler", new SampleMessageHandler());
+
+        // Server: start receiver
+        try {
+            Receiver receiver = new Receiver(port);
+            receiver.start();
+        } catch (IOException e) {
+            System.out.println("Connection error: " + e);
+        }
+
+
+    }
+
+
+    public static void SetupSlaveServer(String host, int port) /*throws InterruptedException */{
+
+        // Server: register handler
+        RequestHandlerRegistry reg = RequestHandlerRegistry.getInstance();
+        reg.registerHandler("MasterMessageHandler", new SampleMessageHandler());
+
+        // Server: start receiver
+        try {
+            Receiver receiver = new Receiver(port);
+            receiver.start();
+        } catch (IOException e) {
+            System.out.println("Connection error: " + e);
+        }
+
+
+    }
 
 	public static void SetupClient(String host, int port, int iteration) throws InterruptedException {
 

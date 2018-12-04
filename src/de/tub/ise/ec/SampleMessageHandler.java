@@ -13,6 +13,7 @@ public class SampleMessageHandler implements IRequestHandler {
 	@Override
 	public Response handleRequest(Request req) {
 
+		//TODO: Handler crud
 		store.store("monkey","banana");
 		//System.out.println("Received: " + store.getValue("monkey2"));
 		//store.delete("monkey");
