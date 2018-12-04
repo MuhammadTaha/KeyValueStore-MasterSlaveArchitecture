@@ -49,7 +49,7 @@ public class Main {
 		}
 
 
-
+/*
 		// Server: register handler
 		RequestHandlerRegistry reg = RequestHandlerRegistry.getInstance();
 		reg.registerHandler("sampleMessageHandler", new SampleMessageHandler());
@@ -62,7 +62,7 @@ public class Main {
 			System.out.println("Connection error: " + e);
 		}
 
-
+*/
 
 	}
 
@@ -70,6 +70,8 @@ public class Main {
 
 		Sender sender = new Sender(host, port);
 
+
+		iteration =0;
 
 		while (iteration-- >=0) {
 			// Client: send message
