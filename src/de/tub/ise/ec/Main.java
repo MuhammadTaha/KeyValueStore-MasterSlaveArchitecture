@@ -17,13 +17,13 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		int instanceType = 0; //0 client, 1 write server, 2 read server
+		int instanceType = 1; //0 client, 1 write server, 2 read server
 
-		// HERMES
+		// HERMES port and host
 		int port = 8080;
 		String host = "127.0.0.1"; // localhost
 
-		////args0 = type, arg1 = port, arg2 = host
+		//args0 = type, arg1 = port, arg2 = host
 		if(args.length>1)
 		{
 			instanceType = Integer.parseInt(args[0]);
@@ -34,14 +34,16 @@ public class Main {
 		switch(instanceType)
 		{
 			case 0: //Client
+                System.out.println("Starting Client");
 				try {
-					SetupClient(host,port,1);
+					SetupClient(host,port,100);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
 				break;
 
 			case 1: //Writing server
+                System.out.println("Starting Master node");
                 SetupMasterServer(host,port);
 				break;
 
@@ -56,17 +58,16 @@ public class Main {
 
         // Server: register handler
         RequestHandlerRegistry reg = RequestHandlerRegistry.getInstance();
-        reg.registerHandler("MasterMessageHandler", new SampleMessageHandler());
+        reg.registerHandler("MasterMessageHandler", new MasterMessageHandler());
 
         // Server: start receiver
         try {
             Receiver receiver = new Receiver(port);
             receiver.start();
+            System.out.println("Server started");
         } catch (IOException e) {
             System.out.println("Connection error: " + e);
         }
-
-
     }
 
 
@@ -74,16 +75,15 @@ public class Main {
 
         // Server: register handler
         RequestHandlerRegistry reg = RequestHandlerRegistry.getInstance();
-        reg.registerHandler("MasterMessageHandler", new SampleMessageHandler());
+        reg.registerHandler("MasterMessageHandler", new MasterMessageHandler());
 
-        // Server: start receiver
+        // Server: start Writing server receiver
         try {
             Receiver receiver = new Receiver(port);
             receiver.start();
         } catch (IOException e) {
-            System.out.println("Connection error: " + e);
+            LOG.error(e.toString());
         }
-
 
     }
 
@@ -91,14 +91,12 @@ public class Main {
 
 		Sender sender = new Sender(host, port);
 
-
-
-
 		while (iteration-- >=0) {
 			// Client: send message
 
 			// create request with different message ID every time and send it
-			Request req = new Request("Message"+iteration, "sampleMessageHandler", "Group35Client");
+			Request req = new Request(new Message(iteration, "monkey","banana","U"),
+                    "MasterMessageHandler", "Group35Client");
 
 			LOG.info("Client Start Writing Message"+iteration);
 			Response res = sender.sendMessage(req, 5000);
