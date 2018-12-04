@@ -71,7 +71,7 @@ public class Main {
 		Sender sender = new Sender(host, port);
 
 
-		iteration =0;
+
 
 		while (iteration-- >=0) {
 			// Client: send message
