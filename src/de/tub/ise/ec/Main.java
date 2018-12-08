@@ -10,6 +10,7 @@ import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.lang.invoke.SwitchPoint;
+import java.util.concurrent.TimeUnit;
 
 public class Main {
 
@@ -109,16 +110,24 @@ public class Main {
 
 		Sender sender = new Sender(host, port);
 
+		//TODO: implement simple client for CRUD
+
 		while (iteration-- > 0) {
 			// Client: send message
 
+			long startTime = System.currentTimeMillis();
 			LOG.info("Client Start Writing Message: "+iteration);
+
+
 			// create request with different message ID every time and send it
 			Request req = new Request(new Message(iteration, "monkey","banana","U"),
                     "MasterMessageHandler", "Group35Client");
 			Response res = sender.sendMessage(req, 5000);
 
-			LOG.info("Client Committed Message: "+iteration);
+			long endTime = System.currentTimeMillis();
+			long timeElapsed = endTime - startTime;
+
+			LOG.info("Client Committed Message: "+iteration + " in ms: "+timeElapsed);
 			System.out.println("Received: " + res.getResponseMessage());
 
 			//sleep the thread for a second

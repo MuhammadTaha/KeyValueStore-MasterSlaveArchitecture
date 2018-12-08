@@ -1,0 +1,202 @@
+19:18:07,401 INFO  - Client Start Writing Message: 100
+19:18:07,682 INFO  - Client Committed Message: 100 in ms: 280
+19:18:08,683 INFO  - Client Start Writing Message: 99
+19:18:08,754 INFO  - Client Committed Message: 99 in ms: 71
+19:18:09,755 INFO  - Client Start Writing Message: 98
+19:18:09,909 INFO  - Client Committed Message: 98 in ms: 154
+19:18:10,912 INFO  - Client Start Writing Message: 97
+19:18:11,015 INFO  - Client Committed Message: 97 in ms: 103
+19:18:12,019 INFO  - Client Start Writing Message: 96
+19:18:12,135 INFO  - Client Committed Message: 96 in ms: 116
+19:18:13,139 INFO  - Client Start Writing Message: 95
+19:18:13,296 INFO  - Client Committed Message: 95 in ms: 157
+19:18:14,299 INFO  - Client Start Writing Message: 94
+19:18:14,417 INFO  - Client Committed Message: 94 in ms: 118
+19:18:15,419 INFO  - Client Start Writing Message: 93
+19:18:15,474 INFO  - Client Committed Message: 93 in ms: 55
+19:18:16,476 INFO  - Client Start Writing Message: 92
+19:18:16,591 INFO  - Client Committed Message: 92 in ms: 115
+19:18:17,593 INFO  - Client Start Writing Message: 91
+19:18:17,710 INFO  - Client Committed Message: 91 in ms: 117
+19:18:18,721 INFO  - Client Start Writing Message: 90
+19:18:18,840 INFO  - Client Committed Message: 90 in ms: 129
+19:18:19,842 INFO  - Client Start Writing Message: 89
+19:18:19,911 INFO  - Client Committed Message: 89 in ms: 69
+19:18:20,914 INFO  - Client Start Writing Message: 88
+19:18:21,026 INFO  - Client Committed Message: 88 in ms: 112
+19:18:22,027 INFO  - Client Start Writing Message: 87
+19:18:22,099 INFO  - Client Committed Message: 87 in ms: 72
+19:18:23,102 INFO  - Client Start Writing Message: 86
+19:18:23,201 INFO  - Client Committed Message: 86 in ms: 99
+19:18:24,205 INFO  - Client Start Writing Message: 85
+19:18:24,325 INFO  - Client Committed Message: 85 in ms: 120
+19:18:25,328 INFO  - Client Start Writing Message: 84
+19:18:25,451 INFO  - Client Committed Message: 84 in ms: 123
+19:18:26,455 INFO  - Client Start Writing Message: 83
+19:18:26,566 INFO  - Client Committed Message: 83 in ms: 111
+19:18:27,571 INFO  - Client Start Writing Message: 82
+19:18:27,681 INFO  - Client Committed Message: 82 in ms: 110
+19:18:28,682 INFO  - Client Start Writing Message: 81
+19:18:28,793 INFO  - Client Committed Message: 81 in ms: 111
+19:18:29,800 INFO  - Client Start Writing Message: 80
+19:18:29,918 INFO  - Client Committed Message: 80 in ms: 118
+19:18:30,923 INFO  - Client Start Writing Message: 79
+19:18:31,037 INFO  - Client Committed Message: 79 in ms: 114
+19:18:32,040 INFO  - Client Start Writing Message: 78
+19:18:32,112 INFO  - Client Committed Message: 78 in ms: 72
+19:18:33,117 INFO  - Client Start Writing Message: 77
+19:18:33,233 INFO  - Client Committed Message: 77 in ms: 116
+19:18:34,236 INFO  - Client Start Writing Message: 76
+19:18:34,338 INFO  - Client Committed Message: 76 in ms: 102
+19:18:35,342 INFO  - Client Start Writing Message: 75
+19:18:35,413 INFO  - Client Committed Message: 75 in ms: 71
+19:18:36,418 INFO  - Client Start Writing Message: 74
+19:18:36,518 INFO  - Client Committed Message: 74 in ms: 100
+19:18:37,525 INFO  - Client Start Writing Message: 73
+19:18:37,661 INFO  - Client Committed Message: 73 in ms: 136
+19:18:38,667 INFO  - Client Start Writing Message: 72
+19:18:38,769 INFO  - Client Committed Message: 72 in ms: 102
+19:18:39,770 INFO  - Client Start Writing Message: 71
+19:18:39,885 INFO  - Client Committed Message: 71 in ms: 115
+19:18:40,891 INFO  - Client Start Writing Message: 70
+19:18:40,990 INFO  - Client Committed Message: 70 in ms: 99
+19:18:41,993 INFO  - Client Start Writing Message: 69
+19:18:42,066 INFO  - Client Committed Message: 69 in ms: 73
+19:18:43,069 INFO  - Client Start Writing Message: 68
+19:18:43,182 INFO  - Client Committed Message: 68 in ms: 113
+19:18:44,184 INFO  - Client Start Writing Message: 67
+19:18:44,281 INFO  - Client Committed Message: 67 in ms: 97
+19:18:45,282 INFO  - Client Start Writing Message: 66
+19:18:45,377 INFO  - Client Committed Message: 66 in ms: 95
+19:18:46,383 INFO  - Client Start Writing Message: 65
+19:18:46,502 INFO  - Client Committed Message: 65 in ms: 119
+19:18:47,505 INFO  - Client Start Writing Message: 64
+19:18:47,622 INFO  - Client Committed Message: 64 in ms: 117
+19:18:48,624 INFO  - Client Start Writing Message: 63
+19:18:48,737 INFO  - Client Committed Message: 63 in ms: 113
+19:18:49,739 INFO  - Client Start Writing Message: 62
+19:18:49,848 INFO  - Client Committed Message: 62 in ms: 109
+19:18:50,855 INFO  - Client Start Writing Message: 61
+19:18:50,965 INFO  - Client Committed Message: 61 in ms: 111
+19:18:51,970 INFO  - Client Start Writing Message: 60
+19:18:52,091 INFO  - Client Committed Message: 60 in ms: 121
+19:18:53,096 INFO  - Client Start Writing Message: 59
+19:18:53,199 INFO  - Client Committed Message: 59 in ms: 103
+19:18:54,201 INFO  - Client Start Writing Message: 58
+19:18:54,312 INFO  - Client Committed Message: 58 in ms: 111
+19:18:55,314 INFO  - Client Start Writing Message: 57
+19:18:55,408 INFO  - Client Committed Message: 57 in ms: 94
+19:18:56,412 INFO  - Client Start Writing Message: 56
+19:18:56,526 INFO  - Client Committed Message: 56 in ms: 114
+19:18:57,530 INFO  - Client Start Writing Message: 55
+19:18:57,644 INFO  - Client Committed Message: 55 in ms: 114
+19:18:58,644 INFO  - Client Start Writing Message: 54
+19:18:58,699 INFO  - Client Committed Message: 54 in ms: 55
+19:18:59,704 INFO  - Client Start Writing Message: 53
+19:18:59,804 INFO  - Client Committed Message: 53 in ms: 100
+19:19:00,811 INFO  - Client Start Writing Message: 52
+19:19:00,925 INFO  - Client Committed Message: 52 in ms: 114
+19:19:01,926 INFO  - Client Start Writing Message: 51
+19:19:02,020 INFO  - Client Committed Message: 51 in ms: 94
+19:19:03,021 INFO  - Client Start Writing Message: 50
+19:19:03,117 INFO  - Client Committed Message: 50 in ms: 96
+19:19:04,124 INFO  - Client Start Writing Message: 49
+19:19:04,261 INFO  - Client Committed Message: 49 in ms: 136
+19:19:05,262 INFO  - Client Start Writing Message: 48
+19:19:05,366 INFO  - Client Committed Message: 48 in ms: 104
+19:19:06,367 INFO  - Client Start Writing Message: 47
+19:19:06,469 INFO  - Client Committed Message: 47 in ms: 102
+19:19:07,476 INFO  - Client Start Writing Message: 46
+19:19:07,575 INFO  - Client Committed Message: 46 in ms: 99
+19:19:08,578 INFO  - Client Start Writing Message: 45
+19:19:08,688 INFO  - Client Committed Message: 45 in ms: 110
+19:19:09,693 INFO  - Client Start Writing Message: 44
+19:19:09,766 INFO  - Client Committed Message: 44 in ms: 73
+19:19:10,769 INFO  - Client Start Writing Message: 43
+19:19:10,881 INFO  - Client Committed Message: 43 in ms: 112
+19:19:11,885 INFO  - Client Start Writing Message: 42
+19:19:12,042 INFO  - Client Committed Message: 42 in ms: 157
+19:19:13,045 INFO  - Client Start Writing Message: 41
+19:19:13,144 INFO  - Client Committed Message: 41 in ms: 99
+19:19:14,151 INFO  - Client Start Writing Message: 40
+19:19:14,264 INFO  - Client Committed Message: 40 in ms: 113
+19:19:15,266 INFO  - Client Start Writing Message: 39
+19:19:15,363 INFO  - Client Committed Message: 39 in ms: 97
+19:19:16,365 INFO  - Client Start Writing Message: 38
+19:19:16,460 INFO  - Client Committed Message: 38 in ms: 95
+19:19:17,466 INFO  - Client Start Writing Message: 37
+19:19:17,538 INFO  - Client Committed Message: 37 in ms: 73
+19:19:18,541 INFO  - Client Start Writing Message: 36
+19:19:18,640 INFO  - Client Committed Message: 36 in ms: 99
+19:19:19,645 INFO  - Client Start Writing Message: 35
+19:19:19,738 INFO  - Client Committed Message: 35 in ms: 93
+19:19:20,740 INFO  - Client Start Writing Message: 34
+19:19:20,839 INFO  - Client Committed Message: 34 in ms: 99
+19:19:21,842 INFO  - Client Start Writing Message: 33
+19:19:21,951 INFO  - Client Committed Message: 33 in ms: 109
+19:19:22,956 INFO  - Client Start Writing Message: 32
+19:19:23,067 INFO  - Client Committed Message: 32 in ms: 111
+19:19:24,069 INFO  - Client Start Writing Message: 31
+19:19:24,164 INFO  - Client Committed Message: 31 in ms: 95
+19:19:25,167 INFO  - Client Start Writing Message: 30
+19:19:25,264 INFO  - Client Committed Message: 30 in ms: 97
+19:19:26,266 INFO  - Client Start Writing Message: 29
+19:19:26,376 INFO  - Client Committed Message: 29 in ms: 110
+19:19:27,378 INFO  - Client Start Writing Message: 28
+19:19:27,489 INFO  - Client Committed Message: 28 in ms: 111
+19:19:28,489 INFO  - Client Start Writing Message: 27
+19:19:28,589 INFO  - Client Committed Message: 27 in ms: 100
+19:19:29,590 INFO  - Client Start Writing Message: 26
+19:19:29,700 INFO  - Client Committed Message: 26 in ms: 110
+19:19:30,707 INFO  - Client Start Writing Message: 25
+19:19:30,803 INFO  - Client Committed Message: 25 in ms: 96
+19:19:31,810 INFO  - Client Start Writing Message: 24
+19:19:31,904 INFO  - Client Committed Message: 24 in ms: 94
+19:19:32,908 INFO  - Client Start Writing Message: 23
+19:19:33,021 INFO  - Client Committed Message: 23 in ms: 113
+19:19:34,023 INFO  - Client Start Writing Message: 22
+19:19:34,136 INFO  - Client Committed Message: 22 in ms: 113
+19:19:35,138 INFO  - Client Start Writing Message: 21
+19:19:35,236 INFO  - Client Committed Message: 21 in ms: 98
+19:19:36,239 INFO  - Client Start Writing Message: 20
+19:19:36,347 INFO  - Client Committed Message: 20 in ms: 108
+19:19:37,351 INFO  - Client Start Writing Message: 19
+19:19:37,461 INFO  - Client Committed Message: 19 in ms: 110
+19:19:38,466 INFO  - Client Start Writing Message: 18
+19:19:38,569 INFO  - Client Committed Message: 18 in ms: 104
+19:19:39,569 INFO  - Client Start Writing Message: 17
+19:19:39,663 INFO  - Client Committed Message: 17 in ms: 94
+19:19:40,668 INFO  - Client Start Writing Message: 16
+19:19:40,738 INFO  - Client Committed Message: 16 in ms: 70
+19:19:41,740 INFO  - Client Start Writing Message: 15
+19:19:41,896 INFO  - Client Committed Message: 15 in ms: 156
+19:19:42,901 INFO  - Client Start Writing Message: 14
+19:19:43,013 INFO  - Client Committed Message: 14 in ms: 112
+19:19:44,013 INFO  - Client Start Writing Message: 13
+19:19:44,168 INFO  - Client Committed Message: 13 in ms: 155
+19:19:45,171 INFO  - Client Start Writing Message: 12
+19:19:45,286 INFO  - Client Committed Message: 12 in ms: 115
+19:19:46,287 INFO  - Client Start Writing Message: 11
+19:19:46,385 INFO  - Client Committed Message: 11 in ms: 98
+19:19:47,386 INFO  - Client Start Writing Message: 10
+19:19:47,487 INFO  - Client Committed Message: 10 in ms: 101
+19:19:48,487 INFO  - Client Start Writing Message: 9
+19:19:48,588 INFO  - Client Committed Message: 9 in ms: 101
+19:19:49,589 INFO  - Client Start Writing Message: 8
+19:19:49,686 INFO  - Client Committed Message: 8 in ms: 97
+19:19:50,690 INFO  - Client Start Writing Message: 7
+19:19:50,788 INFO  - Client Committed Message: 7 in ms: 98
+19:19:51,792 INFO  - Client Start Writing Message: 6
+19:19:51,887 INFO  - Client Committed Message: 6 in ms: 95
+19:19:52,890 INFO  - Client Start Writing Message: 5
+19:19:52,988 INFO  - Client Committed Message: 5 in ms: 98
+19:19:53,990 INFO  - Client Start Writing Message: 4
+19:19:54,099 INFO  - Client Committed Message: 4 in ms: 109
+19:19:55,102 INFO  - Client Start Writing Message: 3
+19:19:55,196 INFO  - Client Committed Message: 3 in ms: 94
+19:19:56,197 INFO  - Client Start Writing Message: 2
+19:19:56,291 INFO  - Client Committed Message: 2 in ms: 94
+19:19:57,293 INFO  - Client Start Writing Message: 1
+19:19:57,396 INFO  - Client Committed Message: 1 in ms: 103
+19:19:58,398 INFO  - Client Start Writing Message: 0
+19:19:58,508 INFO  - Client Committed Message: 0 in ms: 110

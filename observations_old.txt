@@ -1,0 +1,7 @@
+19:07:04,161 DEBUG - server Started
+19:07:11,029 INFO  - Client Start Writing Message: 0
+19:07:11,155 INFO  - Server received: 0
+19:07:11,157 INFO  - Server committed: 0
+19:07:11,158 INFO  - Server Replication started for Message0
+19:07:12,165 INFO  - Server Replication Completed for Message0
+19:07:12,168 INFO  - Client Committed Message: 0 in ms: 1139
