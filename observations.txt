@@ -1,22 +1,21 @@
-2018-12-04 19:47:50,511 INFO  - Client Start Writing Message0
-2018-12-04 19:47:51,548 INFO  - Client Committed Message0
-2018-12-04 19:47:52,549 INFO  - Client Start Writing Message-1
-2018-12-04 19:47:53,560 INFO  - Client Committed Message-1
-2018-12-04 21:04:44,464 INFO  - Client Start Writing Message99
-2018-12-04 21:04:45,477 INFO  - Client Committed Message99
-2018-12-04 21:04:46,477 INFO  - Client Start Writing Message98
-2018-12-04 21:04:47,480 INFO  - Client Committed Message98
-2018-12-04 21:04:48,480 INFO  - Client Start Writing Message97
-2018-12-04 21:04:49,483 INFO  - Client Committed Message97
-2018-12-04 21:04:50,484 INFO  - Client Start Writing Message96
-2018-12-04 21:04:51,485 INFO  - Client Committed Message96
-2018-12-04 21:04:52,485 INFO  - Client Start Writing Message95
-2018-12-04 21:04:53,486 INFO  - Client Committed Message95
-2018-12-04 21:04:54,487 INFO  - Client Start Writing Message94
-2018-12-04 21:04:55,488 INFO  - Client Committed Message94
-2018-12-04 21:04:56,489 INFO  - Client Start Writing Message93
-2018-12-04 21:04:57,491 INFO  - Client Committed Message93
-2018-12-04 21:04:58,491 INFO  - Client Start Writing Message92
-2018-12-04 21:04:59,493 INFO  - Client Committed Message92
-2018-12-04 21:05:00,493 INFO  - Client Start Writing Message91
-2018-12-04 21:05:01,495 INFO  - Client Committed Message91
+16:59:21,990 DEBUG - server Started
+16:59:27,343 DEBUG - Slave Started
+16:59:33,270 INFO  - Client Start Writing Message: 0
+16:59:33,357 INFO  - Server received: 0
+16:59:33,360 INFO  - Server committed: 0
+16:59:33,360 INFO  - Server Replication started for Message0
+16:59:33,361 INFO  - Server Replication Completed for Message0
+16:59:33,365 INFO  - Client Committed Message: 0
+16:59:33,420 INFO  - Slave received: 0
+16:59:33,622 INFO  - Slave committed: 0
+
+17:00:13,831 DEBUG - server Started
+17:00:19,279 DEBUG - Slave Started
+17:00:24,942 INFO  - Client Start Writing Message: 0
+17:00:25,032 INFO  - Server received: 0
+17:00:25,034 INFO  - Server committed: 0
+17:00:25,034 INFO  - Server Replication started for Message0
+17:00:25,093 INFO  - Slave received: 0
+17:00:25,294 INFO  - Slave committed: 0
+17:00:25,299 INFO  - Server Replication Completed for Message0
+17:00:25,302 INFO  - Client Committed Message: 0
